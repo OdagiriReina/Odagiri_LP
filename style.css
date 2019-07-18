@@ -1,18 +1,4 @@
 @charset "utf-8";
-/*
-<<<実装できてないこと>>>
-・「参加申し込み」のアイコン
-・オーバーレイ
-・レスポンシブ対応
-・OGPとTwitterCard
-・入力フォーム(バリデーション)
-・バリデーションチェックの基準(名前は2文字以上、空白文字含む)
-
-
-・学科の説明の欄をレスポンシブにするときはdisply:flex;を消す
-*/
-
-
 * {
     margin: 0;
     padding: 0;
@@ -457,6 +443,48 @@ form button {
     cursor: pointer;
 }
 
+/*footer*/
+footer {
+    width: 100%;
+    /* padding: 0 5%; */
+}
+.foot1 {
+    display: flex;
+    background-color: #ccc;
+    padding: 2rem;
+}
+.foot1 .footInfo, .foot1 .footlink {
+    display: inline-block;
+    width: 50%;
+}
+.footInfo p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footInfo li a:hover {
+    color: #0054a7;
+}
+.col li {
+    display: inline-block;
+    width: 48%;
+    font-size: 0.8rem;
+}
+.col li img {
+    max-width: 90%;
+}
+.col li a:hover {
+    opacity: 0.6;
+}
+.foot2 {
+    background-color: #777;
+    display: flex;
+    padding: 1rem 2rem;
+}
+.foot2 p {
+    font-size: 0.7rem;
+    color: #fff;
+    padding: 1.3rem;
+}
 
 
 /*
