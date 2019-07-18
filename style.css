@@ -569,6 +569,19 @@ mediaquery
         border: none;
     }
 
+    .htxt p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .htxt h2 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .form {
+        width: 100%;
+    }
+
     .list {
         display: block;
     }
