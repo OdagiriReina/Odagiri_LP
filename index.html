@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="オープンキャンパス(体験入学)" />
+    <meta property="og:image" content="img/img_school.jpg" />
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/377eca421b.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/validate-config.js"></script>
+    <title>オープンキャンパス(体験入学)</title>
+</head>
+
+<body>
+        <header>
+            <div class="inner clearfix">
+            <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+            <p class="button">
+            <span></span>
+            <span></span>
+            <span></span>
+            </p>
+            <nav role="navigation">
+            <ul class="clearfix">
+                <li><a href="#trigroup">体験授業</a></li>
+                <li><a href="#bnsgroup">三大特典</a></li>
+                <li><a href="#timegroup">一日の流れ</a></li>
+                <li><a href="#quesgroup">Q&A</a></li>
+                <li><a href="#form">参加申し込み</a></li>
+            </ul>
+            </nav>
+            </div>
+        </header>
+
+    <main class="wrapper">
+            <div class="overlay" style="display: none;"></div>
+
+        <!--img用-->
+        <div class="ocimg">
+            <!-- 画像の上に表示するテキスト。ボタン以外は画像でもいいかもしれない -->
+            <div class="contxt">
+                <p class="oc">OPEN<br>CAMPUS</p>
+                <p class="date">次回開催7月13日</p>
+                <p><a href="">お申し込みはこちらから！</a></p>
+            </div>
+        </div>
+
+        <!--体験授業-->
+        <div class="trial" id="trigroup">
+            <div class="htxt center">
+                <p>興味のある学科を選んで授業を体験しよう！</p>
+                <h2>体験授業</h2>
+            </div>
+
+            <!--各学科の説明-->
+            <div class="dip">
+                <ul class="diptype list">
+                    <li class="indiv">
+                        <img src="img/system.jpg" alt="">
+                        <dl>
+                            <dt>情報システム科</dt>
+                            <dd>フローチャートでシステム構築</dd>
+                            <dt>ネットワークセキュリティ科</dt>
+                            <dd>ネットワーク構築、HTMLでWEB制作</dd>
+                            <dt>総合システム工学科</dt>
+                            <dd>３Dゲーム開発体験</dd>
+                            <dt>高度情報工学科</dt>
+                            <dd>Androidで動くゲーム作り</dd>
+                        </dl>
+                        <div>
+                            <p class="mark">こんな職業を目指す方！</p>
+                            <ul>
+                                <li>プログラマー</li>
+                                <li>アプリケーションエンジニア</li>
+                                <li>ゲームクリエイター</li>
+                                <li>システムエンジニアなど</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="indiv">
+                        <img src="img/business.jpg" alt="">
+                        <dl>
+                            <dt>情報ビジネス科</dt>
+                            <dd>ビジネス文書作成体験</dd>
+                            <dt>会計ビジネス科</dt>
+                            <dd>簿記演習、FP演習</dd>
+                        </dl>
+                        <div>
+                            <p class="mark">こんな職業を目指す方！</p>
+                            <ul>
+                                <li>鉄道員</li>
+                                <li>事務員</li>
+                                <li>銀行員など</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="indiv">
+                        <img src="img/design.jpg" alt="">
+                        <dl>
+                            <dt>グラフィックコース</dt>
+                            <dd>IlllustratorやPhotoshopを使いこなそう</dd>
+                            <dt>アニメ・マンガコース</dt>
+                            <dd>Gペンを使って漫画制作</dd>
+                            <dt>CGクリエイトコース</dt>
+                            <dd>CGアニメーション制作体験</dd>
+                            <dt>建築インテリアコース</dt>
+                            <dd>CADを使って製図体験</dd>
+                        </dl>
+                        <div>
+                            <p class="mark">こんな職業を目指す方！</p>
+                            <ul>
+                                <li>グラフィックデザイナー</li>
+                                <li>イラストレーター</li>
+                                <li>WEBデザイナー</li>
+                                <li>CGデザイナー</li>
+                                <li>店舗デザイナー</li>
+                                <li>漫画家など</li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                </ul>                
+            </div>
+        </div>
+        <div class="bonus" id="bnsgroup">
+            <div class="htxt center">
+                <p>参加者にもれなくプレゼント</p>
+                <h2>参加者三大特典</h2>
+            </div>
+        
+            <div>
+                <ul class="bnslist list">
+                    <li class="indiv">
+                        <div class="bnsImg">
+                            <img src="img/tokuten_1.png" alt="">
+                        </div>
+                        <div class="bnsTxt">
+                            <h3>無料運行バスを運行</h3>
+                            <p>MCL専門学校グループの専用バスで各校までご案内。岩手県･青森県･秋田県各地から無料送迎バスを運行しております。 無料送迎バスの他に県外・遠方の方もお気軽にご参加いただけるように、交通費の補助をいたしますので事前にお申し込み下さい。</p>
+                            <small>※支給額は各学校規定によります。</small>
+                        </div>
+                    </li>
+                    <li class="indiv">
+                        <div class="bnsImg">
+                            <img src="img/tokuten_2.png" alt="">
+                        </div>
+                        <div class="bnsTxt">
+                            <h3>2回以上行くと選考料半額免除！<small>(高校三年生・社会人　対象)</small></h3>
+                            <p>オープンキャンパス１回の参加で、選考試験１科目（面・筆）免除。２回以上の参加で選考料半額免除など、オープンキャンパスの参加回数によって入学選考試験受験時の受験科目が免除になる特典や選考料免除などの特典があります。</p>
+                        </div>
+                    </li>
+                    <li class="indiv">
+                        <div class="bnsImg">
+                            <img src="img/tokuten_3.png" alt="">
+                        </div>
+                        <div class="bnsTxt">
+                            <h3>記念品プレゼント＆ランチ付き！</h3>
+                            <p>参加者、保護者の方へのランチを用意しています。ランチを食べながら在校生や卒業生が学校での活動や生活の様子をお伝えします。アットホームな雰囲気で気になることはなんでも気軽に質問できます。入試・学費や特待生制度についても聞いてみよう！</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="timeschedule" id="timegroup">
+            <!--写真数点を配置することになる-->
+            <div class="htxt center">
+                <p>オープンキャンパス</p>
+                <h2>一日の流れ</h2>
+            </div>
+
+            <div class="timecon indiv">
+                <div>
+                    <img src="img/clock_1.png" alt="">
+                    <p class="time"><time>10:00</time>　受付開始</p>
+                    <p class="text">初めての人でも大丈夫！先輩たちがやさしく案内します。</p>
+                </div>
+                
+                <div>
+                    <img src="img/clock_2.png" alt="">
+                    <p class="time"><time>10:30</time>　全体説明会</p>
+                    <p class="text">学校の概要や、私たちが何を大事にしているのか、皆さんに何を大事にして欲しいかをお話しします。</p>   
+                </div>
+
+                <div>
+                    <img src="img/clock_3.png" alt="">
+                    <p class="time"><time>11:30</time>　体験授業</p>
+                    <p class="text">専門学校の実際の授業を模擬体験！希望する各コースに分かれて体験授業を受けます。</p>
+                </div>
+
+                <div>
+                    <img src="img/clock_4.png" alt="">
+                    <p class="time"><time>12:30</time>　ランチタイム</p>
+                    <p class="text">ランチを食べながら学生と話せるので、学校での活動や生活など、気になることは何でも気軽に質問できます。</p>
+                </div>
+
+                <div>
+                    <img src="img/clock_5.png" alt="">
+                    <p class="time"><time>13:00</time>　入試制度説明</p>
+                    <p class="text">入試のこと、出願方法、特待生制度のこと、学費のこと、入寮奨学制度のことなど、詳しく説明します。</p>
+                </div>
+
+                <div>
+                    <img src="img/clock_6.png" alt="">
+                    <p class="time"><time>13:30(希望者)</time>　個別面談・寮見学</p>
+                    <p class="text">ご希望の方は、個別相談や寮見学も可能です。希望しない方は13：30で終了となります。                </p>
+                </div>
+                <div class="timeImg">
+                    <img src="img/stu1.jpeg" alt="">
+                    <img src="img/stu2.jpeg" alt="">
+                    <img src="img/stu3.jpeg" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="question" id="quesgroup">
+            <div class="htxt center">
+                <p>参加する前の疑問質問にお答えします</p>
+                <h2>Q&A</h2>
+                
+            </div>
+    
+            <!--Q&A-->
+            <div class="questxt indiv">
+                <dl>
+                    <dt>Q　オープンキャンパスに参加するときの持ち物はありますか？</dt>
+                    <dd>A　筆記用具を持ってきてください。</dd>
+                    <dt>Q　服装は制服ですか？それとも私服ですか？</dt>
+                    <dd>A　特に決まりはありませんが、制服で参加する方がほとんどなので制服をオススメします。</dd>
+                    <dt>Q　中履きは必要ですか？</dt>
+                    <dd>A　必要ありません。外履きのみで大丈夫です。</dd>
+                    <dt>Q　お母さん・お父さんと一緒に行ってもいいですか？</dt>
+                    <dd>A　はい。もちろんです。親御さんとぜひご一緒にお越しください。入学に関する様々な質問に、個別でも対応いたします。</dd>
+                    <dt>Q　進路が決まっている友人と行ってもいいですか？</dt>
+                    <dd>A　もちろんいいですよ、一緒に参加してください！</dd>
+                    <dt>Q　一人で参加しても良いですか？</dt>
+                    <dd>A　もちろんです。ぜひ参加してください！</dd>
+                    <dt>Q　寮ってありますか？一人暮らしを考えているので寮も検討したいです。</dt>
+                    <dd>A　はい。指定寮があるから、初めての一人暮らしも安心です！相談や見学もできますので、見学ご希望の方は事前にご連絡ください。</dd>
+                </dl>
+            </div>
+        </div>
+
+        
+        <div id="form">
+            <div class="htxt center">
+                <p>参加無料！何度でもOK!</p>
+                <h2>オープンキャンパス申し込み</h2>
+            </div>
+            <section class="formSec">
+                <form method="post" action="#">
+                    <table class="formTab">
+                        <tr>
+                            <th>名前<span class="required">必須</span></th>
+                            <td>
+                                <input name="name" type="text" value="" id="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>メールアドレス<span class="required">必須</span></th>
+                            <td>
+                                <input name="mail" type="email" value="" id="mail">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>電話番号(ハイフンなし)<span class="required">必須</span></th>
+                            <td>
+                                <input name="tel" type="tel" value="" id="tel">
+                            </td>
+                        </tr>
+                    </table>
+                    <button>送信</button>
+                </form>
+            </section>
+            
+        </div>
+<!--
+        <footer>
+            <ul class="clearfix">
+                <li><a href="#trigroup">体験授業</a></li>
+                <li><a href="#bnsgroup">三大特典</a></li>
+                <li><a href="#timegroup">一日の流れ</a></li>
+                <li><a href="#quesgroup">Q&A</a></li>
+                <li class="app"><a href="#form">参加申し込み</a></li>
+
+            </ul>
+        </footer>
+-->
+        <script>
+            /*ハンバーガーメニュー*/
+            $(function(){
+                $('#contents').prepend('<div class="overlay"></div>');
+                $('.button').click(function() {
+                    $('header').toggleClass('navOpen');
+                    $('#wrap').toggleClass('fixed');
+                    $('.overlay').toggle();
+                    var headerH = $('header').outerHeight();
+                    if ($('header').hasClass('navOpen')) {
+                        $('header nav').css('marginTop', headerH + 'px');
+                    }
+                });
+                
+                
+                $('.overlay').click(function() {
+                    $(this).fadeOut(300);
+                    $('header').removeClass('navOpen');
+                    $('#wrap').removeClass('fixed');
+                });
+                
+                $(window).on('load resize', function() {
+                    var breakpoint = 640;
+                    if (window.innerWidth > breakpoint) {
+                        $('header').removeClass('navOpen');
+                        $('#wrap').removeClass('fixed');
+                        $('.overlay').hide();
+                        $('header nav').css('marginTop', 0 + 'px');
+                    }
+                });
+            });
+
+
+            /*スムーススクロール*/
+            $(function(){
+                $('a[href^="#"]').click(function(){
+                    var speed = 500;
+                    var href= $(this).attr("href");
+                    var target = $(href == "#" || href == "" ? 'html' : href);
+                    var position = target.offset().top;
+                    $("html, body").animate({scrollTop:position}, speed, "swing");
+                    return false;
+                });
+            });
+
+        </script>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
