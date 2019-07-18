@@ -452,7 +452,7 @@ footer {
     display: flex;
     background-color: #ccc;
     padding: 2rem;
-    padding: 0 5%;
+    padding: 0 0 0 3%;
 }
 .foot1 .footInfo, .foot1 .footlink {
     display: inline-block;
@@ -479,7 +479,7 @@ footer {
 .foot2 {
     background-color: #777;
     display: flex;
-    padding: 2% 5%;
+    padding: 2% 3%;
 }
 .foot2 p {
     font-size: 0.7rem;
@@ -606,5 +606,8 @@ mediaquery
     }
     .footInfo ul, .foot1 .footlink, .foot2{
         display: none;
+    }
+    .questxt dl {
+        width: 100%;
     }
 }
