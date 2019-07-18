@@ -460,6 +460,14 @@ footer {
     display: inline-block;
     width: 50%;
 }
+.footlink div {
+    margin-bottom: 1rem;
+}
+.footlink p {
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    border-left: solid 4px #0054a7;
+}
 .footInfo p {
     font-size: 1.5rem;
     font-weight: 500;
@@ -599,9 +607,6 @@ mediaquery
         width: 80%;
         padding: 1rem 0;
         margin: 0 auto;
-    }
-    .diptype .indiv {
-        height: 15rem;
     }
     .foot1, .foot1 .footInfo{
         display: block;
