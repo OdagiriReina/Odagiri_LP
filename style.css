@@ -454,14 +454,14 @@ footer {
     display: flex;
     background-color: #ccc;
     padding: 2rem;
-    padding: 0 0 0 3%;
+    padding: 1% 0 0 3%;
 }
 .foot1 .footInfo, .foot1 .footlink {
     display: inline-block;
     width: 50%;
 }
 .footlink div {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
 }
 .footlink p {
     padding-left: 1rem;
