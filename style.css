@@ -445,13 +445,14 @@ form button {
 
 /*footer*/
 footer {
+    box-sizing: border-box;
     width: 100%;
-    /* padding: 0 5%; */
 }
 .foot1 {
     display: flex;
     background-color: #ccc;
     padding: 2rem;
+    padding: 0 5%;
 }
 .foot1 .footInfo, .foot1 .footlink {
     display: inline-block;
@@ -478,7 +479,7 @@ footer {
 .foot2 {
     background-color: #777;
     display: flex;
-    padding: 1rem 2rem;
+    padding: 2% 5%;
 }
 .foot2 p {
     font-size: 0.7rem;
@@ -597,5 +598,13 @@ mediaquery
     }
     .diptype .indiv {
         height: 15rem;
+    }
+    .foot1, .foot1 .footInfo{
+        display: block;
+        width: 100%;
+        padding: 3%;
+    }
+    .footInfo ul, .foot1 .footlink, .foot2{
+        display: none;
     }
 }
