@@ -508,6 +508,9 @@ mediaquery
 *
 */
 @media screen and (max-width: 780px) {
+    * {
+        box-sizing: border-box;
+    }
     /*ハンバーガーメニュー*/
     header .inner {
         height: 4rem;
@@ -597,20 +600,24 @@ mediaquery
         width: 30%;
         height: 10rem;
     }
-    
+    .indiv .dipimg {
+        min-width: 100%;
+        padding: 0 0 1rem 0;
+    }
     .indiv .bnsTxt {
         width: 70%;
     }
-    .indiv {
+    .diptype .indiv {
         height: 20%;
         width: 100%;
+        display: block;
     }
-    .bnsImg img, .dipimg img {
+    .bnsImg img {
         padding: 0 0.5rem;
     }
-    .indiv dl {
-        width: 40%;
-        padding-left: 1rem;
+    .indiv dl, .indiv div {
+        width: 100%;
+        padding-left: 2rem;
     }
     .timeImg {
         display: block;
