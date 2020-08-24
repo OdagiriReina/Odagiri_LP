@@ -596,7 +596,14 @@ mediaquery
         display: flex;
         align-items: center;
     }
-    .bnsImg, .dipimg {
+    .bnslist .indiv {
+        width: 100%;
+    }
+    .dipimg {
+        width: 30%;
+        height: 10rem;
+    }
+    .indiv .bnsImg {
         width: 30%;
         height: 10rem;
     }
