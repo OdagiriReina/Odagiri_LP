@@ -532,8 +532,6 @@ mediaquery
         margin-top:180px;
     }
 
-
-
     header h1 {
         width: auto;
         margin-top: 0;
@@ -599,20 +597,11 @@ mediaquery
     .bnslist .indiv {
         width: 100%;
     }
-    .dipimg {
-        width: 30%;
-        height: 10rem;
-    }
-    .indiv .bnsImg {
-        width: 30%;
-        height: 10rem;
-    }
-    .indiv .dipimg {
-        min-width: 100%;
+    .indiv .dipimg, .indiv .bnsImg {
         padding: 0 0 1rem 0;
     }
     .indiv .bnsTxt {
-        width: 70%;
+        width: 100%;
     }
     .diptype .indiv {
         height: 20%;
